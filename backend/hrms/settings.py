@@ -1,5 +1,12 @@
 from pathlib import Path
 from decouple import config
+import dj_database_url
+import os
+import dj_database_url
+
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -53,6 +60,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'hrms.wsgi.application'
+
 
 DATABASES = {
     'default': {
