@@ -2,6 +2,15 @@
 
 A lightweight, modern Human Resource Management System built with **Django REST Framework** (backend) and **React + Vite** (frontend), backed by **PostgreSQL**.
 
+
+
+
+- <img width="1906" height="950" alt="Screenshot 2026-03-12 035450" src="https://github.com/user-attachments/assets/ec26f04b-5440-4b05-a266-98533b81c2e1" />
+
+
+
+
+
 ---
 
 ## Tech Stack
@@ -120,11 +129,11 @@ Frontend runs at **http://localhost:5173**
 ### Backend (`backend/.env`)
 ```env
 DEBUG=True
-SECRET_KEY=your-secret-key
-DATABASE_NAME=postgres
-DATABASE_USER=postgres
-DATABASE_PASSWORD=1234
-DATABASE_HOST=localhost
+SECRET_KEY=********
+DATABASE_NAME=********
+DATABASE_USER=********
+DATABASE_PASSWORD=********
+DATABASE_HOST=********
 DATABASE_PORT=5432
 ALLOWED_HOSTS=localhost,127.0.0.1
 CORS_ALLOWED_ORIGINS=http://localhost:5173
@@ -145,3 +154,77 @@ VITE_API_BASE_URL=http://localhost:8000/api
 - CORS is open for development; restrict in production
 - Attendance status is limited to **Present** or **Absent**
 - One attendance record per employee per day (enforced by unique constraint)
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
